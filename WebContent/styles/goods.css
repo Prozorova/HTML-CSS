@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.coffeePic {
+	width: 500px;
+  	height: auto;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: darkgrey;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: red;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
+
