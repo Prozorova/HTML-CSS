@@ -2,7 +2,7 @@
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="styles/mainPage.css">
+		<link rel="stylesheet" href="styles/style.css">
 		<title>Contacts</title>
 	</head>
 	<body>
@@ -25,19 +25,19 @@
 					<label for="name">Full Name: </label>
 				</div>
 				<div class="input-item">
-					<input id="name" type="text" placeholder="name">
+					<input name="name" id="name" type="text" placeholder="name">
 				</div>
 				<div class="label-item">
 					<label for="email">E-Mail Address: </label>
 				</div>
 				<div class="input-item">
-					<input id="email" type="text" placeholder="aaa@mail.com">
+					<input name="email" id="email" type="email" placeholder="aaa@mail.com">
 				</div>
 				<div class="label-item">
 					<label for="phone">Telephone: </label>
 				</div>
 				<div class="input-item">
-					<input id="phone" type="text" placeholder="8-888-888-8888">
+					<input name="phone" id="phone" type="text" placeholder="8-888-888-8888">
 				</div>
 				<div class="label-item">
 					<label for="radio">Respond By: </label>
@@ -50,13 +50,13 @@
 					<label for="theme">Theme of request: </label>
 				</div>
 				<div class="input-item">
-					<input id="theme" type="text" placeholder="theme">
+					<input name="theme" id="theme" type="text" placeholder="theme">
 				</div>
 				<div class="label-item">
 					<label for="request">Enquiry: </label>
 				</div>
 				<div class="input-item">
-					<textarea id="request" >Write your enquiry here</textarea>
+					<textarea name="request" id="request" placeholder="Write your enquiry here" ></textarea>
 				</div>
 				<div></div>
 				<div class="input-item">
@@ -65,13 +65,16 @@
 			</div>
 		</form>
 		<h3>OUR CONTACTS</h3>
-		<p> From within UK: 01233 503222
-		<p> International: +44 (0)1233 503222
-		<p> Coffee Shop
-		<p> Ashford Business Park, 13
-		<p> Ashford
-		<p> TN24 0FE
-		<p> sales@coffeeshop.com
+		<p class="contacts"> 
+			From within UK: 01233 503222 <br>
+			International: +44 (0)1233 503222 <br>
+			<h5>Coffee Shop</h5>
+			Ashford Business Park, 13 <br>
+			Ashford <br>
+			TN24 0FE <br>
+			<br>
+			sales@coffeeshop.com
+		</p>
 		<br>
 		<script type="text/javascript" charset="utf-8" 
 				async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa0a474ffc8684766995edf3967c637469d5922688eeeff6d817be0ee902fd6ad&amp;width=764&amp;height=543&amp;lang=ru_RU&amp;scroll=true">

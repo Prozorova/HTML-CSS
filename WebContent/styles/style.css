@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+h1 {
+	font-size: 200%;
+	padding: 10px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	color: darkgrey;
+}
+
+a:link, 
+a:visited {
+  	text-decoration: none;
+  	color: darkgrey;
+  	text-align: center;
+  	font-family: Helvetica, sans-serif;
+}
+
+a:hover, 
+a:active {
+  	text-decoration: underline;
+  	color: red;
+  	text-align: center;
+  	font-family: Helvetica, sans-serif;
+}
+
+body {
+	background: linear-gradient(to left, #555, #000);
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: darkgrey;
+}
+
+.topleft {
+  	position: absolute;
+  	top: 100px;
+  	left: 16px;
+  	font-family: fantasy, sans-serif;
+  	font-size: 28px;
+  	color: darkgrey;
+}
+
+.mainPic {
+  	border-radius: 0;
+  	width: 100%;
+  	height: auto;
+}
+
+.coffeePic {
+	border-radius: 0;
+	border: double #935100;
+	width: 500px;
+  	height: auto;
+}
+
+img {
+	border-radius: 50%;
+	width: 256px;
+	height: 256px;
+}
+
+ul {
+	list-style: none;
+}
+
+.grid-container {
+  	display: grid;
+  	grid-template-columns: auto auto auto;
+  	padding: 10px;
+}
+
+.grid-catalog {
+  	padding: 10px;
+  	text-align: center;
+}
+
+.grid-item {
+  	padding: 10px;
+}
+
+.grid-item h1, h4 {
+  	color: #eaeaea;
+  	text-align: left;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+.grid-item ul {
+	font-size: 18px;
+	font-family: fantasy, sans-serif;
+	line-height: 26px;
+	text-transform: capitalize;
+  	list-style-image: url(../images/bean.png);
+}
+
+.shortDescr {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.longDescr {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: left;
+}
+
+.contact-us {
+	display: grid;
+  	grid-template-columns: max-content auto;
+  	padding: 10px;
+}
+
+.label-item {
+  	padding: 10px;
+  	text-align: right;
+  	font-family: fantasy, sans-serif;
+	font-size: 16px;
+	color: darkgrey;
+}
+
+.input-item {
+  	padding: 10px;
+  	text-align: left;
+}
+
+input[type=text], [type=email] {
+  	width: 50%;
+  	height: 30px;
+}
+
+textarea {
+	width: 50%;
+	height: 150px;
+  	resize: none;
+}
+
+input[type=text], [type=email], 
+textarea {
+	background-color: #d5d5d5;
+	border-radius: 4px;
+	border: 3px solid #a9a9a9;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+textarea:focus, 
+input:focus {
+    border-color: #ff2600;
+}
+
+button {
+	background-color: #d5d5d5;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	width: 51%;
+  	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
