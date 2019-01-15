@@ -6,20 +6,23 @@
 		<title>Peruvian Tunki</title>
 	</head>
 	<body>
-		<ul>
-			<li>
-				<a href="../index.html">Main page</a>
-			</li>
-			<li>
-				<a href="../catalog.html">Coffee catalog</a>
-			</li>
-			<li>
-				<a href="../contacts.html">Contacts</a>
-			</li>
-		</ul>
+		<div class="header">
+			<h2> COFFEE SHOP </h2>
+			<ul>
+				<li>
+					<a href="../index.html">Main page</a>
+				</li>
+				<li>
+					<a href="../catalog.html">Coffee catalog</a>
+				</li>
+				<li>
+					<a href="../contacts.html">Contacts</a>
+				</li>
+			</ul>
+		</div>
 		<hr>
 		<div>
-			<div class="grid-item">
+			<div class="grid-pic">
 				<a href="../images/tunki.jpg" target="_blank">
 					<img src="../images/tunki.jpg" 
 						 alt="HTML5 Icon" 
@@ -33,11 +36,27 @@
 					This exceptional coffee is sustainably shade-grown at an altitude of 1600-1800m ensuring 
 					it’s unmistakable high acidity and clean crisp taste.
 				</p>
-				<h4>Specification</h4>
-				<ul>
-					<li> Size: 250g
-					<li> Type: aeropress
-				</ul>
+				<h4>Product options</h4>
+				<table>
+					<tbody>
+						<tr>
+							<th class="rowName">Type</th>
+							<th>metal filter</th>
+							<th>paper filter</th>
+							<th>whole bean</th>
+							<th>aeropress</th>
+							<th>turkish</th>
+						</tr>
+						<tr>
+							<th class="rowName">Size/Price</th>
+							<th>100g $3.35</th>
+							<th>150g $4.90</th>
+							<th>250g $6.77</th>
+							<th>500g $12.40</th>
+							<th>1000g $21.90</th>
+						</tr>
+					</tbody>
+				</table>
 				<h4>Product details</h4>
 				<p class="longDescr">
 					The name Tunki comes from the locally found wild bird (also known as ‘cock of the rocks’) 
@@ -55,6 +74,6 @@
 			</div>
 		</div>
 		<hr>
-		<footer> &copy; All rights reserved </footer>
+		<footer class="footer"> &copy; All rights reserved </footer>
 	</body>
 </html>
