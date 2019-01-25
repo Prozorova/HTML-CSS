@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "Raleway - Extra Bold";
+    src: url(raleway/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+	font-family: "Raleway - Regular";
+    src: url(raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Raleway - Heavy";
+    src: url(raleway/Raleway-Bold.ttf);
+}
+
+body {
+	width: 1500px;
+	margin: 0;
+}
+
+.header {
+	background-color: #abeafa;
+	height: 700px;
+}
+
+.content {
+	
+}
+
+.footer {
+	background-color: #373737;
+	height: 351px;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 1170px;
+	height: inherit;
+}
+
+.logo {
+	display: block;
+	position: absolute;
+	background: url(images/surfhouse_logo.png) no-repeat;
+	width: 125px;
+	height: 111px;
+	top: 24px;
+    left: 69px;
+}
+
+.welcomeBlock {
+	width: 270px;
+	height: 300px;
+	background-color: #fff51f;
+	color: #333333;
+	font-family: "Raleway - Regular", sans-serif;
+	font-weight: 700;
+	position: absolute;
+	top: 336px;
+}
+
+.welcome {
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 78px 15px 21px 25px;
+}
+
+.onlyStore {
+	font-size: 18px;
+	font-style: italic;
+	line-height: 14px;
+	margin: 20px 10px 82px 22px;
+}
+
+.social {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	font-size: 18px;
+    position: absolute;
+    width: 121px;
+    top: 50px;
+    right: 64px;
+}
+
+.JPFunride {
+	width: 313px;
+	height: 169px;
+	position: absolute;
+	top: 225px;
+    right: 109px;
+    font-family: "Raleway - Regular", sans-serif;
+    color: #fff51f;
+    font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.JPFunride h1 {
+	font-family: "Raleway - Extra Bold", sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+	margin: 19px 0 6px;
+}
+
+.buyNow {
+	position: absolute;
+	top: 474px;
+    right: 295px;
+	width: 124px;
+	height: 49px;
+	background-color: #fff51f;
+	border: none;
+	color: #000000;
+	font-family: "Raleway - Heavy";
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.contentWrap {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -20px;
+}
+
+.menu {
+	width: 270px;
+	height: 475px;
+	background-color: #26d2fc;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.menuBlack {
+	height: 45px;
+	background-color: #333333;
+	color: #ffffff;
+	line-height: 32px;
+	padding-top: 21px;
+}
+
+.menuBlack p {
+	margin: 0 42px;
+}
+
+.menu ul {
+	margin: 6px 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu ul li {
+	padding-left: 40px;
+}
+
+.menu ul li:hover {
+	background-color: #333333;
+	color: #ffffff;
+	cursor: pointer;
+	
+}
+
+.nowOpen {
+	position: relative;
+	width: 270px;
+	height: 300px;
+	background-color: #e0e0e0;
+	margin-top: 30px;
+}
+
+.nowOpen h1 {
+	position: absolute;
+	left: 138px;
+    top: 125px;
+	margin: 0;
+	color: #333333;	
+	font-family: "Raleway - Heavy";
+	font-size: 36px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.catalog {
+	width: 870px;
+	height: 1645px;
+	background-color: #feffff;
+}
+
+.bottom {
+	margin-top: 32px;
+	width: 1170px;
+}
+
+.brands {
+	height: 160px;
+	background-color: #ffffff;
+}
+
+.brands:before{
+	content: '';
+  	background: url(images/brands.png) no-repeat;
+  	margin: 71px 14px;
+  	float: left;
+  	width: 1142px;
+  	height: 26px;
+}
+
+.instagram {
+	height: 350px;
+	background-color: #eaeaea;
+	position: relative;
+}
+
+.instFeed {
+	position: absolute;
+	top: 51px;
+	left: 449px;
+	margin: 0;
+}
+
+.socLinks {
+	display: flex;
+	justify-content: center;
+	height: 150px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 105px;
+}
+
+.images img{
+	margin: 0 12px 0 0;
+}
+
+.footer .container {
+	display: flex;
+	justify-content: space-between;
+	color: #ffffff;
+	font-family: Roboto, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.footer .container div {
+	position: absolute;
+	height: inherit;
+}
+
+.footer h3 {
+	padding-top: 56px;
+	font-family: "Raleway - Extra Bold";
+	font-size: 18px;
+}
+
+.category {
+	width: 84px;
+	left: 27px;
+}
+
+.account {
+	width: 113px;
+	left: 226px;
+}
+
+.support {
+	width: 108px;
+	left: 423px;
+}
+
+.newsletter {
+	width: 267px;
+	left: 599px;
+}
+
+.newsletter h3 {
+	padding-left: 10px;
+}
+
+.aboutUs {
+	width: 233px;
+	left: 912px;
+}
